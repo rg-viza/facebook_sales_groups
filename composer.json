@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "facebook/graph-sdk": "5.6.1",
+    "phpunit/phpunit": "6.4.3",
+    "phpunit/phpunit-mock-objects": "4.0.4"
+  }
+}
