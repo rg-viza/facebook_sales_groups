@@ -7,8 +7,7 @@
  */
 
 session_start();
-require_once( 'Facebook/autoload.php' );
-
+require __DIR__ . '/vendor/autoload.php';
 $fb = new Facebook\Facebook([
     'app_id' => '1125928294209166',
     'app_secret' => 'c21e86febb76d6b61c917d6f150a954f',
