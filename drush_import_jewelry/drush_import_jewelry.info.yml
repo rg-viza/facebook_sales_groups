@@ -1,0 +1,4 @@
+name: Drush Import Jewelry
+description: Drupal 8 import jewelry command
+type: module
+core: 8.x

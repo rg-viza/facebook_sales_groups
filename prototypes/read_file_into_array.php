@@ -36,7 +36,7 @@ function input_file_to_csv($file_path, $arr_fields)
 function format_csv_row($arr_row)
 {
     $row = "";
-    foreach($arr_row as $idx=>$field)
+    foreach($arr_row as $field)
     {
         $row .= "\"$field\",";
     }
